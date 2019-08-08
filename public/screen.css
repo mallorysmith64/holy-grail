@@ -10,3 +10,46 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #83caff;
+  border: solid;
+  border-width: thick;
+  font-size: 5em;
+}
+
+.grail-body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  border-width: thick;
+  border-top: none;
+  background-color: #cc99cd;
+  font-size: 5em;
+  height: 10em;
+  margin: 0;
+}
+
+.middle-column {
+  display: flex;
+  flex: 1;
+  /* justify-content: center;
+  background-color: #fdcccd;
+  flex: 2;
+  border: solid;
+  border-width: thick;
+  font-size: 5em; */
+}
+
+.column-right {
+  display: flex;
+  flex: 1;
+}
